@@ -1,0 +1,21 @@
+{
+	"geode": "4.4.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "geming400.dontupdateaccount",
+	"name": "Don't Update Account",
+	"version": "v1.0.0",
+	"developer": "Geming400",
+	"description": "",
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"default": true,
+			"name": "Enabled"
+		}
+	}
+}
