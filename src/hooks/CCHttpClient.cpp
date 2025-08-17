@@ -6,7 +6,7 @@ using namespace geode::prelude;
 void CCHttpClient_send(CCHttpClient* self, CCHttpRequest* req) {
     std::string_view url = req->getUrl();
     
-    if (!url.ends_with("updateGJUserScore22.php") || !Mod::get()->getSettingValue<bool>("enabled")) {
+    if (!url.ends_with("updateGJUserScore22.php")) {
         self->send(req);
     }
 }

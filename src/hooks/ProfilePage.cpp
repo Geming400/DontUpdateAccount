@@ -7,9 +7,7 @@ class $modify(MyProfilePage, ProfilePage) {
     bool init(int accountID, bool ownProfile) {
         if (!ProfilePage::init(accountID, ownProfile)) return false;
 
-        if (Mod::get()->getSettingValue<bool>("enabled")) {
-            ProfilePage::updateUserScoreFinished();
-        }
+        this->updateUserScoreFinished();
 
         return true;
     }
