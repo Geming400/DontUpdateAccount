@@ -2,4 +2,7 @@
 
 This mod will prevent any stats being updated on your account.
 
-This can be very useful if you for exemple mainly play on your pc, and when you go on your desynced save file which is on your phone, it won't update your stats
+This can be very useful if you for example mainly play on your pc, but whenever you play on your phone and check your account, your stats get desynced.
+This mod prevents <cb>exactly this</cb> !
+
+Note: This simply won't update your account stats. You can still update the social links, send messages, etc...
