@@ -5,7 +5,7 @@ using namespace geode::prelude;
 #include <Geode/modify/GameLevelManager.hpp>
 class $modify(MyGameLevelManager, GameLevelManager) {
     static void onModify(auto& self) {
-        (void)self.setHookPriority("GameLevelManager::updateUserScore", Priority::Replace);
+        (void) self.setHookPriority("GameLevelManager::updateUserScore", Priority::Replace);
     }
 
     void updateUserScore() {

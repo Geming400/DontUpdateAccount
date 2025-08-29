@@ -8,7 +8,7 @@
 	},
 	"id": "geming400.dontupdateaccount",
 	"name": "Don't Update Account",
-	"version": "v1.0.1",
+	"version": "v1.0.2",
 	"developer": "Geming400",
 	"description": "Allows you to not update your account's stats",
 	"links": {
