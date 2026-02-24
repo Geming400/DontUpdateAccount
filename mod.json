@@ -1,5 +1,5 @@
 {
-	"geode": "5.0.0-beta.2",
+	"geode": "5.0.1",
 	"gd": {
 		"win": "2.2081",
 		"android": "2.2081",
@@ -8,7 +8,7 @@
 	},
 	"id": "geming400.dontupdateaccount",
 	"name": "Don't Update Account",
-	"version": "v1.0.2",
+	"version": "v1.0.3",
 	"developer": "Geming400",
 	"description": "Allows you to not update your account's stats",
 	"links": {

@@ -9,6 +9,6 @@ class $modify(MyGameLevelManager, GameLevelManager) {
     }
 
     void updateUserScore() {
-        this->onUpdateUserScoreCompleted(fmt::to_string(GameManager::get()->m_playerUserID), "user_score");
+        this->onUpdateUserScoreCompleted(fmt::to_string(GameManager::get()->m_playerUserID.value()), "user_score");
     }
 };
